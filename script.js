@@ -7,9 +7,9 @@ document.getElementById("form").addEventListener("submit", function(e) {
 
     if(name && email && course){
         document.getElementById("message").innerText =
-        "Student Registered Successfully!";
+        "Registration Successful - Updated Version!";
     } else {
         document.getElementById("message").innerText =
-        "Please fill all fields!";
+        "Please fill by fields!";
     }
 });
