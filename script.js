@@ -8,7 +8,8 @@ document.getElementById("form").addEventListener("submit", function(e) {
     if(name && email && course){
         document.getElementById("message").innerText =
         "Registration Successful - Updated Version!";
-    } else {
+    } else
+    {
         document.getElementById("message").innerText =
         "Please fill by fields!";
     }
